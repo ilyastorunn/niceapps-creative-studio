@@ -1,0 +1,58 @@
+[
+  {
+    "id": "calm-time-awareness",
+    "brief": "A calm time-awareness app that turns the year into a visible, low-pressure progress system.",
+    "target_slug": "countdown-memento-calendar",
+    "lanes": [
+      {
+        "name": "visual",
+        "input": { "query": "calm minimal editorial", "visual_style": ["minimal", "editorial"], "limit": 6 },
+        "expected_any_slugs": ["savee-inspiration-for-you", "vocabulary-learn-words-daily"]
+      },
+      {
+        "name": "communication",
+        "input": { "communication_job": ["primary-benefit", "progress"], "limit": 6 },
+        "expected_any_slugs": ["vocabulary-learn-words-daily", "gentler-streak-workout-tracker", "screen-time-unscroll"]
+      }
+    ]
+  },
+  {
+    "id": "data-rich-running-coach",
+    "brief": "A premium running coach with activity history, performance insights, readiness, and adaptive training plans.",
+    "target_slug": "runmo-ai-running-coach",
+    "lanes": [
+      {
+        "name": "product",
+        "input": { "query": "fitness progress insight", "category": "Health & Fitness", "limit": 6 },
+        "expected_any_slugs": ["gentler-streak-workout-tracker"]
+      },
+      {
+        "name": "visual",
+        "input": { "query": "technical premium dark", "visual_style": ["technical", "premium"], "limit": 6 },
+        "expected_any_slugs": ["flighty-live-flight-tracker"]
+      },
+      {
+        "name": "communication",
+        "input": { "communication_job": ["insight", "progress", "planning"], "limit": 6 },
+        "expected_any_slugs": ["gentler-streak-workout-tracker", "screen-time-unscroll"]
+      }
+    ]
+  },
+  {
+    "id": "playful-social-discovery",
+    "brief": "A high-energy social discovery app centered on friends, places, and real-world activity.",
+    "target_slug": "bump-real-life-is-happening",
+    "lanes": [
+      {
+        "name": "visual",
+        "input": { "query": "playful editorial bright", "visual_style": ["playful", "editorial"], "limit": 6 },
+        "expected_any_slugs": ["not-boring-weather", "gentler-streak-workout-tracker"]
+      },
+      {
+        "name": "communication",
+        "input": { "communication_job": ["discovery", "community", "social-proof"], "limit": 6 },
+        "expected_any_slugs": ["savee-inspiration-for-you", "loona-sleep-reduce-anxiety", "not-boring-weather"]
+      }
+    ]
+  }
+]

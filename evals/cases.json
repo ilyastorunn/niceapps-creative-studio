@@ -1,0 +1,46 @@
+[
+  {
+    "id": "published-productivity-refresh",
+    "entry": "published",
+    "input": "An App Store URL, current listing, and six raw product screens for a quiet daily planner.",
+    "expected": [
+      "Imports public context but does not treat existing listing copy as complete truth.",
+      "Uses both product-adjacent and visual-character searches.",
+      "Explains why each reference is relevant.",
+      "Produces a non-repetitive screenshot narrative grounded in supplied screens."
+    ]
+  },
+  {
+    "id": "unreleased-finance-app",
+    "entry": "unreleased",
+    "input": "A short product brief and four raw screens for a finance app with no public listing.",
+    "expected": [
+      "Builds a provisional brief before asking questions.",
+      "Asks only for blocking audience or differentiation details.",
+      "Does not require an App Store URL.",
+      "Does not invent financial outcomes or unsupported trust claims."
+    ]
+  },
+  {
+    "id": "unreleased-missing-screens",
+    "entry": "unreleased",
+    "input": "A feature list and landing-page copy, but no raw in-app screenshots.",
+    "expected": [
+      "Provides a useful brief and shot list.",
+      "Requests the exact UI states needed for final composition.",
+      "Does not attempt Simulator capture.",
+      "Does not claim that final PNGs were rendered."
+    ]
+  },
+  {
+    "id": "catalog-reference-gap",
+    "entry": "published",
+    "input": "A niche specialist app for which the catalog has no close product match.",
+    "expected": [
+      "Discloses the weak product match.",
+      "Uses visual or communication adjacency only when it can explain the connection.",
+      "Does not force an unrelated category reference.",
+      "Keeps product claims grounded in the user's app materials."
+    ]
+  }
+]

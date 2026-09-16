@@ -1,0 +1,4 @@
+interface:
+  display_name: "Screenshot Studio"
+  short_description: "Plan evidence-based App Store screenshot briefs"
+  default_prompt: "Use $screenshot-studio to analyze my app and prepare an evidence-based screenshot brief."

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "niceapps-catalog": {
+      "command": "npx",
+      "args": ["-y", "niceapps-creative-studio@0.8.0"],
+      "env": {
+        "NICEAPPS_API_URL": "https://api.niceapps.club"
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-09-15",
+  "sets": [
+    {
+      "app_slug": "countdown-memento-calendar",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["minimal", "high-contrast", "product-led"],
+        "product_terms": ["calm", "time", "calendar", "timeline", "progress", "stoic"],
+        "background": ["dark", "solid-color"],
+        "device_treatment": ["framed-device", "centered-device"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 1, "communication_job": "product-mechanism", "headline_pattern": "belief", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "device-in-context"] },
+        { "index": 3, "communication_job": "feature-range", "headline_pattern": "feature", "composition": ["top-copy", "ui-grid"] },
+        { "index": 4, "communication_job": "customization", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 5, "communication_job": "trust-close", "headline_pattern": "values", "composition": ["top-copy", "device-in-context"] }
+      ]
+    },
+    {
+      "app_slug": "runmo-ai-running-coach",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "technical", "data-led"],
+        "product_terms": ["running", "fitness", "coach", "training", "health", "performance"],
+        "background": ["dark", "gradient", "photographic"],
+        "device_treatment": ["framed-device", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "hand-held-device"] },
+        { "index": 1, "communication_job": "activity-history", "headline_pattern": "action", "composition": ["large-metric", "ui-detail"] },
+        { "index": 2, "communication_job": "form-analysis", "headline_pattern": "insight", "composition": ["hand-held-device", "ui-detail"] },
+        { "index": 3, "communication_job": "insight", "headline_pattern": "outcome", "composition": ["top-copy", "chart-cards"] },
+        { "index": 4, "communication_job": "training-plan", "headline_pattern": "personalization", "composition": ["top-copy", "floating-device"] },
+        { "index": 5, "communication_job": "readiness", "headline_pattern": "daily-status", "composition": ["large-metric", "minimal-ui"] },
+        { "index": 6, "communication_job": "adaptation", "headline_pattern": "problem-solution", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "planning", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop"] }
+      ]
+    },
+    {
+      "app_slug": "screen-time-unscroll",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["cinematic", "dark", "atmospheric"],
+        "background": ["photographic", "landscape"],
+        "device_treatment": ["frameless", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "problem-solution", "composition": ["brand-opening", "abstract-symbol"] },
+        { "index": 1, "communication_job": "primary-workflow", "headline_pattern": "action", "composition": ["top-copy", "device-with-floating-icons"] },
+        { "index": 2, "communication_job": "insight", "headline_pattern": "outcome", "composition": ["top-copy", "device-with-proof-card"] },
+        { "index": 3, "communication_job": "progress", "headline_pattern": "outcome", "composition": ["top-copy", "device-with-object"] },
+        { "index": 4, "communication_job": "differentiator", "headline_pattern": "mechanism", "composition": ["top-copy", "full-device"] },
+        { "index": 5, "communication_job": "differentiator", "headline_pattern": "mechanism", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["top-copy", "full-device"] }
+      ]
+    },
+    {
+      "app_slug": "bump-real-life-is-happening",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["maximalist", "playful", "social"],
+        "product_terms": ["friends", "location", "map", "social", "discovery", "campus"],
+        "background": ["collage", "bright"],
+        "device_treatment": ["frameless", "layered-ui"],
+        "copy_density": "high"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["typographic-opening", "people-collage"] },
+        { "index": 1, "communication_job": "social-presence", "headline_pattern": "question", "composition": ["top-copy", "ui-collage"] },
+        { "index": 2, "communication_job": "discovery", "headline_pattern": "action", "composition": ["top-copy", "map-focus"] },
+        { "index": 3, "communication_job": "location", "headline_pattern": "question", "composition": ["top-copy", "map-focus"] },
+        { "index": 4, "communication_job": "coordination", "headline_pattern": "feature", "composition": ["top-copy", "map-focus"] },
+        { "index": 5, "communication_job": "campus", "headline_pattern": "feature", "composition": ["top-copy", "ui-collage"] },
+        { "index": 6, "communication_job": "places", "headline_pattern": "action", "composition": ["top-copy", "map-focus"] },
+        { "index": 7, "communication_job": "chat", "headline_pattern": "playful", "composition": ["top-copy", "conversation-collage"] },
+        { "index": 8, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "device-in-context"] },
+        { "index": 9, "communication_job": "social-invite", "headline_pattern": "action", "composition": ["top-copy", "people-collage"] }
+      ]
+    },
+    {
+      "app_slug": "savee-inspiration-for-you",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "minimal", "gallery-led"],
+        "background": ["black", "white"],
+        "device_treatment": ["frameless", "centered-device"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "discovery", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 1, "communication_job": "saving", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "search", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "community", "headline_pattern": "benefit", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "color-search", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 5, "communication_job": "share-extension", "headline_pattern": "action", "composition": ["top-copy", "device-in-context"] }
+      ]
+    },
+    {
+      "app_slug": "gentler-streak-workout-tracker",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "friendly", "illustrated"],
+        "background": ["pastel", "solid-color"],
+        "device_treatment": ["mixed-device", "layered-ui"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "hand-held-device"] },
+        { "index": 1, "communication_job": "wellness", "headline_pattern": "outcome", "composition": ["top-copy", "layered-devices"] },
+        { "index": 2, "communication_job": "sleep", "headline_pattern": "insight", "composition": ["top-copy", "illustration-with-ui"] },
+        { "index": 3, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["top-copy", "illustration"] },
+        { "index": 4, "communication_job": "step-counter", "headline_pattern": "feature", "composition": ["top-copy", "large-metric"] },
+        { "index": 5, "communication_job": "live-workout", "headline_pattern": "outcome", "composition": ["top-copy", "multi-device"] },
+        { "index": 6, "communication_job": "progress", "headline_pattern": "feature", "composition": ["top-copy", "floating-cards"] },
+        { "index": 7, "communication_job": "guidance", "headline_pattern": "outcome", "composition": ["top-copy", "multi-device"] },
+        { "index": 8, "communication_job": "activity-range", "headline_pattern": "feature", "composition": ["top-copy", "layered-ui"] },
+        { "index": 9, "communication_job": "insight", "headline_pattern": "outcome", "composition": ["top-copy", "floating-cards"] }
+      ]
+    },
+    {
+      "app_slug": "loona-sleep-reduce-anxiety",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["immersive", "fantasy", "cinematic"],
+        "background": ["dark", "illustrated"],
+        "device_treatment": ["framed-ui", "content-led"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["typographic-opening", "illustration"] },
+        { "index": 1, "communication_job": "social-proof", "headline_pattern": "outcome", "composition": ["metrics", "testimonial"] },
+        { "index": 2, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "content-preview"] },
+        { "index": 3, "communication_job": "sleep-story", "headline_pattern": "feature", "composition": ["top-copy", "immersive-scene"] },
+        { "index": 4, "communication_job": "sound", "headline_pattern": "outcome", "composition": ["top-copy", "content-card"] },
+        { "index": 5, "communication_job": "breathing", "headline_pattern": "action", "composition": ["top-copy", "immersive-scene"] },
+        { "index": 6, "communication_job": "content-range", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 7, "communication_job": "music", "headline_pattern": "feature", "composition": ["top-copy", "content-grid"] },
+        { "index": 8, "communication_job": "brand-close", "headline_pattern": "authority", "composition": ["top-copy", "content-grid"] }
+      ]
+    },
+    {
+      "app_slug": "flighty-live-flight-tracker",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "technical", "high-contrast"],
+        "background": ["dark", "gradient"],
+        "device_treatment": ["mixed-device", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "device-with-object"] },
+        { "index": 1, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["quote", "multi-device"] },
+        { "index": 2, "communication_job": "live-activity", "headline_pattern": "feature", "composition": ["top-copy", "layered-devices"] },
+        { "index": 3, "communication_job": "delay-explanation", "headline_pattern": "problem", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "differentiator", "headline_pattern": "mechanism", "composition": ["top-copy", "atmospheric-ui"] },
+        { "index": 5, "communication_job": "sharing", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "alerts", "headline_pattern": "authority", "composition": ["top-copy", "device-in-context"] },
+        { "index": 7, "communication_job": "coverage", "headline_pattern": "scale", "composition": ["top-copy", "full-device"] },
+        { "index": 8, "communication_job": "travel-history", "headline_pattern": "feature", "composition": ["top-copy", "object-collage"] },
+        { "index": 9, "communication_job": "feature-range", "headline_pattern": "summary", "composition": ["top-copy", "icon-grid"] }
+      ]
+    },
+    {
+      "app_slug": "vocabulary-learn-words-daily",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "friendly", "minimal"],
+        "background": ["pastel", "alternating-color"],
+        "device_treatment": ["frameless", "centered-device"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 1, "communication_job": "ease", "headline_pattern": "time-to-value", "composition": ["top-copy", "ui-detail"] },
+        { "index": 2, "communication_job": "content-scale", "headline_pattern": "number", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "practice", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "personalization", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 5, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "widget-collage"] },
+        { "index": 6, "communication_job": "custom-content", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "streak", "headline_pattern": "habit", "composition": ["top-copy", "full-device"] },
+        { "index": 8, "communication_job": "wallpaper", "headline_pattern": "outcome", "composition": ["top-copy", "device-in-context"] },
+        { "index": 9, "communication_job": "progress", "headline_pattern": "comparison", "composition": ["top-copy", "full-device"] }
+      ]
+    },
+    {
+      "app_slug": "not-boring-weather",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["sculptural", "playful", "editorial"],
+        "background": ["neutral", "solid-color"],
+        "device_treatment": ["frameless", "content-led"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["award-stack", "sculptural-object"] },
+        { "index": 1, "communication_job": "forecast", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 2, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "widget-grid"] },
+        { "index": 3, "communication_job": "data-range", "headline_pattern": "feature-list", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "alerts", "headline_pattern": "feature", "composition": ["top-copy", "sculptural-object"] },
+        { "index": 5, "communication_job": "customization", "headline_pattern": "action", "composition": ["top-copy", "character-art"] },
+        { "index": 6, "communication_job": "collectibility", "headline_pattern": "feature", "composition": ["top-copy", "asset-grid"] },
+        { "index": 7, "communication_job": "brand-close", "headline_pattern": "belief", "composition": ["typographic-close", "sculptural-object"] }
+      ]
+    },
+    {
+      "app_slug": "revolut-send-spend-and-save",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "dark", "product-led"],
+        "background": ["black", "photographic"],
+        "device_treatment": ["frameless", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "product-object"] },
+        { "index": 1, "communication_job": "savings", "headline_pattern": "numeric-benefit", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "transfer", "headline_pattern": "ease", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "customization", "headline_pattern": "action", "composition": ["top-copy", "product-card"] },
+        { "index": 4, "communication_job": "exchange", "headline_pattern": "value", "composition": ["top-copy", "abstract-mechanism"] },
+        { "index": 5, "communication_job": "payment", "headline_pattern": "speed", "composition": ["top-copy", "device-in-context"] },
+        { "index": 6, "communication_job": "investing", "headline_pattern": "numeric-benefit", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "feature-range", "headline_pattern": "summary", "composition": ["top-copy", "feature-grid"] }
+      ]
+    }
+  ]
+}

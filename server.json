@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ilyastorunn/niceapps-creative-studio",
+  "title": "Niceapps Creative Studio",
+  "description": "Evidence-based App Store screenshot research, messaging, and art-direction analysis",
+  "repository": {
+    "url": "https://github.com/ilyastorunn/niceapps-creative-studio",
+    "source": "github"
+  },
+  "websiteUrl": "https://niceapps.club",
+  "version": "0.8.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "niceapps-creative-studio",
+      "version": "0.8.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
