@@ -22,4 +22,16 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-      - run: npm publish --access public --provenance
+      - id: package
+        run: echo "version=$(node -p \"require('./package.json').version\")" >> "$GITHUB_OUTPUT"
+      - id: registry
+        run: |
+          if npm view "niceapps-creative-studio@${{ steps.package.outputs.version }}" version >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.registry.outputs.exists != 'true'
+        run: npm publish --access public --provenance
+      - if: steps.registry.outputs.exists == 'true'
+        run: echo "niceapps-creative-studio@${{ steps.package.outputs.version }} already exists; skipping publish."
