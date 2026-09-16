@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Added installation instructions for Codex, Claude Code, Claude Desktop, Cursor, Windsurf, VS Code, Gemini CLI, Windows, and generic stdio MCP clients.
+- Ignored generated output, local environment files, evaluation results, feedback snapshots, and local Creative Studio state.
+- Removed the stale committed retrieval-evaluation result; reproducible evaluation cases and the runner remain versioned.
+
 ## 0.8.0 — Visual reference boards
 
 - Repositioned the public MCP as an analysis-first product and removed `render_preview` and `render_screenshot_set` from the exposed tool surface after creative evaluations produced template-like work.

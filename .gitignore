@@ -3,3 +3,10 @@ node_modules/
 .DS_Store
 coverage/
 tmp/
+.env
+.env.*
+!.env.example
+output/
+evals/results/
+.niceapps/
+*.feedback.json

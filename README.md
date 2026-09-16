@@ -34,13 +34,28 @@ Creative Studio gives the agent better evidence:
 
 Requires Node.js 20 or newer and any MCP-compatible client.
 
-### Codex
+### OpenAI Codex
 
 ```bash
 codex mcp add niceapps-creative-studio -- npx -y niceapps-creative-studio@latest
 ```
 
-### MCP JSON
+Or install the Codex plugin to load both the MCP server and the screenshot-planning skill:
+
+```bash
+codex plugin marketplace add ilyastorunn/niceapps-creative-studio --ref main
+codex plugin add niceapps-creative-studio@niceapps
+```
+
+### Claude Code
+
+```bash
+claude mcp add --scope user niceapps-creative-studio -- npx -y niceapps-creative-studio@latest
+```
+
+### Claude Desktop, Cursor, and Windsurf
+
+Add this server to your client's MCP JSON configuration:
 
 ```json
 {
@@ -53,16 +68,58 @@ codex mcp add niceapps-creative-studio -- npx -y niceapps-creative-studio@latest
 }
 ```
 
-Start a new conversation after installation so your client discovers the tools.
+Common configuration locations:
 
-### Codex plugin
+| Client | Configuration |
+| --- | --- |
+| Claude Desktop | `~/Library/Application Support/Claude/claude_desktop_config.json` on macOS |
+| Cursor | `~/.cursor/mcp.json` for user scope or `.cursor/mcp.json` for project scope |
+| Windsurf | `~/.codeium/windsurf/mcp_config.json` |
 
-The repository also includes a Codex skill that teaches the agent the full screenshot-planning workflow:
+On Windows, use `"command": "cmd"` and begin the arguments with `"/c", "npx"`.
+
+### VS Code
+
+Add `.vscode/mcp.json` to a workspace, or use the corresponding user-level MCP configuration:
+
+```json
+{
+  "servers": {
+    "niceapps-creative-studio": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "niceapps-creative-studio@latest"]
+    }
+  }
+}
+```
+
+### Gemini CLI
+
+Add the server to `~/.gemini/settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "niceapps-creative-studio": {
+      "command": "npx",
+      "args": ["-y", "niceapps-creative-studio@latest"]
+    }
+  }
+}
+```
+
+### Any stdio MCP client
+
+Run the package through `npx` and configure the client to communicate over standard input/output:
 
 ```bash
-codex plugin marketplace add ilyastorunn/niceapps-creative-studio --ref main
-codex plugin add niceapps-creative-studio@niceapps
+npx -y niceapps-creative-studio@latest
 ```
+
+The server writes protocol messages to stdout, so launching it directly may appear to do nothing. That is expected; normally an MCP client starts and controls the process.
+
+Restart the client or begin a new conversation after installation so it discovers the tools.
 
 ## Try it
 
