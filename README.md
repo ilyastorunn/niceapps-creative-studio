@@ -147,7 +147,7 @@ flowchart LR
     F --> G[Copy and export QA]
 ```
 
-The catalog currently contains 92 human-reviewed frames across 11 apps. Retrieval considers communication job, headline pattern, product language, visual style, composition, background, and device treatment. Results include match reasons and can exclude the target app or cap repeated results from one campaign.
+The catalog currently contains 418 human-reviewed frames across all 55 apps in the reviewed 2026-09-17 catalog snapshot. Retrieval considers communication job, headline pattern, product language, visual style, composition, background, and device treatment. Results include match reasons and can exclude the target app or cap repeated results from one campaign.
 
 Annotations are an index, not a substitute for sight. `get_reference_board` returns the selected screenshots as an image so the agent must inspect the actual hierarchy, crop, lighting, material, typography, collage, and product scale before proposing a direction.
 
@@ -222,7 +222,7 @@ To inspect the server interactively:
 npx -y @modelcontextprotocol/inspector npx -y niceapps-creative-studio@latest
 ```
 
-See the [changelog](CHANGELOG.md), [contribution guide](CONTRIBUTING.md), [security policy](SECURITY.md), and [architecture notes](docs/architecture.md).
+See the [project wiki](docs/wiki/index.md), [changelog](CHANGELOG.md), [contribution guide](CONTRIBUTING.md), [security policy](SECURITY.md), and [architecture notes](docs/architecture.md).
 
 ## Status and roadmap
 

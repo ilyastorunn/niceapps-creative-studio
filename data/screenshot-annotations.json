@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewed_at": "2026-09-15",
+  "reviewed_at": "2026-09-17",
   "sets": [
     {
       "app_slug": "countdown-memento-calendar",
@@ -227,6 +227,757 @@
         { "index": 5, "communication_job": "payment", "headline_pattern": "speed", "composition": ["top-copy", "device-in-context"] },
         { "index": 6, "communication_job": "investing", "headline_pattern": "numeric-benefit", "composition": ["top-copy", "full-device"] },
         { "index": 7, "communication_job": "feature-range", "headline_pattern": "summary", "composition": ["top-copy", "feature-grid"] }
+      ]
+    },
+    {
+      "app_slug": "moonlitt-moon-phase-tracker",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "technical", "atmospheric"],
+        "product_terms": ["moon", "lunar", "calendar", "eclipse", "astronomy", "widgets", "augmented reality", "map"],
+        "background": ["dark", "gradient", "photographic"],
+        "device_treatment": ["mixed-device", "framed-device", "content-led"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "full-device", "award-badge"] },
+        { "index": 1, "communication_job": "lunar-calendar", "headline_pattern": "feature", "composition": ["top-copy", "device-with-wearable", "testimonial"] },
+        { "index": 2, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "widget-grid", "award-badge"] },
+        { "index": 3, "communication_job": "eclipse-tracking", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "education", "headline_pattern": "feature", "composition": ["top-copy", "full-device", "social-proof"] },
+        { "index": 5, "communication_job": "augmented-reality", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui", "testimonial"] },
+        { "index": 6, "communication_job": "daily-insight", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 7, "communication_job": "map", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui", "testimonial"] },
+        { "index": 8, "communication_job": "cross-device", "headline_pattern": "feature", "composition": ["top-copy", "multi-device"] }
+      ]
+    },
+    {
+      "app_slug": "tide-guide-charts-tables",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "technical", "data-led"],
+        "product_terms": ["tides", "weather", "ocean", "marine", "solunar", "widgets", "live activities", "apple watch"],
+        "background": ["dark", "gradient", "solid-color"],
+        "device_treatment": ["framed-device", "mixed-device", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "full-device", "award-stack"] },
+        { "index": 1, "communication_job": "daily-forecast", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "planning", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "apple-watch", "headline_pattern": "feature", "composition": ["top-copy", "wearable-collage"] },
+        { "index": 4, "communication_job": "live-activity", "headline_pattern": "feature", "composition": ["large-ui-detail", "device-in-context"] },
+        { "index": 5, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "widget-grid"] },
+        { "index": 6, "communication_job": "solunar-data", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] }
+      ]
+    },
+    {
+      "app_slug": "caffeine-tracker-alyx",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["playful", "data-led", "high-contrast"],
+        "product_terms": ["caffeine", "coffee", "sleep", "health", "tracking", "widgets", "siri", "visual lookup"],
+        "background": ["gradient", "bright"],
+        "device_treatment": ["framed-device", "large-crop", "layered-ui"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "tilted-device", "award-badge"] },
+        { "index": 1, "communication_job": "ai-logging", "headline_pattern": "feature", "composition": ["bottom-copy", "large-device-crop"] },
+        { "index": 2, "communication_job": "sleep-impact", "headline_pattern": "insight", "composition": ["top-copy", "full-device", "character-art"] },
+        { "index": 3, "communication_job": "visual-lookup", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "timing-guidance", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop", "character-art"] },
+        { "index": 5, "communication_job": "quick-log", "headline_pattern": "speed", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "health-insight", "headline_pattern": "insight", "composition": ["top-copy", "full-device", "character-art"] },
+        { "index": 7, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "layered-devices"] },
+        { "index": 8, "communication_job": "shortcuts", "headline_pattern": "feature", "composition": ["top-copy", "layered-devices"] },
+        { "index": 9, "communication_job": "feature-range", "headline_pattern": "summary", "composition": ["top-copy", "full-device", "award-badge"] }
+      ]
+    },
+    {
+      "app_slug": "evolve-self-care-adhd-coach",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["friendly", "illustrated", "pastel"],
+        "product_terms": ["self care", "adhd", "meditation", "sleep", "gratitude", "journaling", "mental health", "personal growth"],
+        "background": ["pastel", "solid-color", "illustrated"],
+        "device_treatment": ["framed-device", "content-led"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "authority", "composition": ["top-copy", "full-device", "award-badge"] },
+        { "index": 1, "communication_job": "routine", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "quick-calm", "headline_pattern": "time-to-value", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "sleep", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "guided-content", "headline_pattern": "belief", "composition": ["top-copy", "full-device"] },
+        { "index": 5, "communication_job": "gratitude", "headline_pattern": "habit", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "journaling", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["quote", "character-art"] },
+        { "index": 8, "communication_job": "social-proof", "headline_pattern": "scale", "composition": ["typographic-close", "illustration"] }
+      ]
+    },
+    {
+      "app_slug": "go-club-steps-water",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["bold", "playful", "editorial"],
+        "product_terms": ["steps", "water", "walking", "hydration", "habits", "apple watch", "widgets", "privacy"],
+        "background": ["bright", "gradient", "photographic"],
+        "device_treatment": ["mixed-device", "hand-held-device", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["typographic-opening", "hand-held-device", "award-badge"] },
+        { "index": 1, "communication_job": "habit-motivation", "headline_pattern": "belief", "composition": ["large-copy", "wearable-focus", "social-proof"] },
+        { "index": 2, "communication_job": "step-counter", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "apple-watch", "headline_pattern": "feature", "composition": ["top-copy", "wearable-focus", "photographic"] },
+        { "index": 4, "communication_job": "water-reminder", "headline_pattern": "feature", "composition": ["top-copy", "product-object", "large-device-crop"] },
+        { "index": 5, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["large-copy", "layered-ui", "photographic"] },
+        { "index": 6, "communication_job": "walking-guidance", "headline_pattern": "action", "composition": ["top-copy", "hand-held-device", "photographic"] },
+        { "index": 7, "communication_job": "widget", "headline_pattern": "feature", "composition": ["ui-detail", "widget-grid"] },
+        { "index": 8, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["large-copy", "photographic", "award-stack"] }
+      ]
+    },
+    {
+      "app_slug": "headspace-sleep-meditation",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["friendly", "illustrated", "high-contrast"],
+        "product_terms": ["meditation", "sleep", "stress", "mindfulness", "anxiety", "wellbeing", "personalization"],
+        "background": ["bright", "solid-color", "illustrated"],
+        "device_treatment": ["frameless", "content-led", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["brand-opening", "character-art", "award-stack"] },
+        { "index": 1, "communication_job": "stress-relief", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 2, "communication_job": "sleep", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "meditation", "headline_pattern": "time-to-value", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "wellbeing", "headline_pattern": "outcome", "composition": ["top-copy", "content-cards"] },
+        { "index": 5, "communication_job": "personalization", "headline_pattern": "feature", "composition": ["top-copy", "content-cards"] },
+        { "index": 6, "communication_job": "content-scale", "headline_pattern": "number", "composition": ["top-copy", "content-grid"] },
+        { "index": 7, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["press-wall", "brand-close"] }
+      ]
+    },
+    {
+      "app_slug": "her-75",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "minimal", "monochrome"],
+        "product_terms": ["challenge", "habits", "community", "friends", "water", "wellness", "progress"],
+        "background": ["white", "neutral"],
+        "device_treatment": ["frameless", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "challenge-selection", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 1, "communication_job": "community", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 2, "communication_job": "habit-tracking", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "social-accountability", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "personalization", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 5, "communication_job": "water-tracking", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] }
+      ]
+    },
+    {
+      "app_slug": "how-we-feel",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "minimal", "high-contrast"],
+        "product_terms": ["emotions", "mood", "journal", "wellbeing", "patterns", "coping tools", "friends", "privacy"],
+        "background": ["black", "solid-color"],
+        "device_treatment": ["frameless", "content-led"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 1, "communication_job": "emotion-check-in", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 2, "communication_job": "patterns", "headline_pattern": "insight", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "coping-tools", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "sharing", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 5, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["large-copy", "character-art"] },
+        { "index": 6, "communication_job": "accessibility", "headline_pattern": "values", "composition": ["large-copy", "character-art"] },
+        { "index": 7, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["award-stack", "brand-close"] }
+      ]
+    },
+    {
+      "app_slug": "mood-emotion-tracker-riley",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["fantasy", "soft", "illustrated"],
+        "product_terms": ["mood", "emotions", "memories", "journal", "privacy", "widgets", "friends", "monthly insights"],
+        "background": ["gradient", "pastel", "illustrated"],
+        "device_treatment": ["frameless", "large-crop", "layered-ui"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "question", "composition": ["typographic-opening", "character-art", "social-proof"] },
+        { "index": 1, "communication_job": "mood-check-in", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 2, "communication_job": "memory-collection", "headline_pattern": "feature", "composition": ["ui-detail", "character-art"] },
+        { "index": 3, "communication_job": "journaling", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["large-copy", "character-art"] },
+        { "index": 5, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "layered-devices"] },
+        { "index": 6, "communication_job": "thoughts-journal", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 7, "communication_job": "monthly-insight", "headline_pattern": "summary", "composition": ["top-copy", "large-device-crop"] }
+      ]
+    },
+    {
+      "app_slug": "one-year-daily-journal",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["hand-drawn", "playful", "minimal"],
+        "product_terms": ["journal", "memory", "camera", "widget", "mood", "garden", "doodles", "daily habit"],
+        "background": ["solid-color", "gradient"],
+        "device_treatment": ["frameless", "tilted-device", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "daily-journal", "headline_pattern": "habit", "composition": ["top-copy", "tilted-device"] },
+        { "index": 1, "communication_job": "camera", "headline_pattern": "feature", "composition": ["top-copy", "tilted-device"] },
+        { "index": 2, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "tilted-device"] },
+        { "index": 3, "communication_job": "mood-tracking", "headline_pattern": "action", "composition": ["top-copy", "large-ui-detail"] },
+        { "index": 4, "communication_job": "progress", "headline_pattern": "outcome", "composition": ["top-copy", "tilted-device"] },
+        { "index": 5, "communication_job": "customization", "headline_pattern": "number", "composition": ["top-copy", "asset-grid"] }
+      ]
+    },
+    {
+      "app_slug": "runbuds",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["bold", "social", "high-contrast"],
+        "product_terms": ["running", "friends", "challenges", "motivation", "distance", "pace", "competition"],
+        "background": ["red", "gradient", "solid-color"],
+        "device_treatment": ["frameless", "large-crop", "layered-ui"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "social-running", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop", "avatar-collage"] },
+        { "index": 1, "communication_job": "challenge", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop", "avatar-collage"] },
+        { "index": 2, "communication_job": "motivation", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop", "avatar-focus"] }
+      ]
+    },
+    {
+      "app_slug": "strava-run-bike-walk",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "technical", "high-contrast"],
+        "product_terms": ["running", "cycling", "walking", "workouts", "community", "routes", "hiking", "performance", "competition", "devices"],
+        "background": ["dark", "gradient", "solid-color"],
+        "device_treatment": ["framed-device", "mixed-device", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["award-stack", "multi-device"] },
+        { "index": 1, "communication_job": "community", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "workout-tracking", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "strength-training", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "hiking", "headline_pattern": "action", "composition": ["top-copy", "layered-ui"] },
+        { "index": 5, "communication_job": "sharing", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "performance-insight", "headline_pattern": "personalization", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "route-discovery", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 8, "communication_job": "device-sync", "headline_pattern": "feature", "composition": ["top-copy", "device-with-wearable"] },
+        { "index": 9, "communication_job": "competition", "headline_pattern": "scale", "composition": ["top-copy", "full-device"] }
+      ]
+    },
+    {
+      "app_slug": "the-outsiders-fitness-tracker",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["technical", "data-led", "high-contrast"],
+        "product_terms": ["fitness", "readiness", "training load", "sleep", "recovery", "widgets", "intensity", "workout summary", "privacy", "apple watch"],
+        "background": ["dark", "gradient", "black"],
+        "device_treatment": ["mixed-device", "framed-device", "layered-ui"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["typographic-opening", "illustration", "award-badge"] },
+        { "index": 1, "communication_job": "readiness", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "wearable-metrics", "headline_pattern": "feature-list", "composition": ["top-copy", "wearable-collage", "award-badge"] },
+        { "index": 3, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "training-load", "headline_pattern": "outcome", "composition": ["top-copy", "full-device", "social-proof"] },
+        { "index": 5, "communication_job": "sleep-recovery", "headline_pattern": "insight", "composition": ["top-copy", "full-device", "social-proof"] },
+        { "index": 6, "communication_job": "training-plan", "headline_pattern": "outcome", "composition": ["top-copy", "full-device", "social-proof"] },
+        { "index": 7, "communication_job": "training-intensity", "headline_pattern": "personalization", "composition": ["top-copy", "full-device", "social-proof"] },
+        { "index": 8, "communication_job": "workout-summary", "headline_pattern": "feature", "composition": ["top-copy", "ui-grid"] },
+        { "index": 9, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["top-copy", "device-with-icon", "social-proof"] }
+      ]
+    },
+    {
+      "app_slug": "cosmos-search-discover",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "minimal", "gallery-led"],
+        "product_terms": ["inspiration", "search", "discovery", "saving", "color search", "friends", "collaboration", "import"],
+        "background": ["white", "neutral", "muted-color"],
+        "device_treatment": ["frameless", "content-led", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "circular-collage", "award-badge"] },
+        { "index": 1, "communication_job": "discovery", "headline_pattern": "action", "composition": ["top-copy", "content-grid"] },
+        { "index": 2, "communication_job": "saving", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "color-search", "headline_pattern": "feature", "composition": ["top-copy", "content-grid"] },
+        { "index": 4, "communication_job": "social-discovery", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 5, "communication_job": "content-control", "headline_pattern": "action", "composition": ["top-copy", "content-grid"] },
+        { "index": 6, "communication_job": "collaboration", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 7, "communication_job": "cross-platform-import", "headline_pattern": "feature", "composition": ["top-copy", "platform-icon-row", "ui-detail"] }
+      ]
+    },
+    {
+      "app_slug": "grug",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["hand-drawn", "minimal", "playful"],
+        "product_terms": ["daily wisdom", "reflection", "quotes", "mindfulness", "habit", "widget"],
+        "background": ["white", "solid-color", "pastel"],
+        "device_treatment": ["framed-device", "centered-device"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "belief", "composition": ["typographic-opening", "hand-drawn-illustration"] },
+        { "index": 1, "communication_job": "daily-wisdom", "headline_pattern": "habit", "composition": ["centered-device", "handwritten-note"] },
+        { "index": 2, "communication_job": "reflection", "headline_pattern": "belief", "composition": ["centered-device", "hand-drawn-illustration"] },
+        { "index": 3, "communication_job": "encouragement", "headline_pattern": "belief", "composition": ["centered-device", "hand-drawn-illustration"] },
+        { "index": 4, "communication_job": "mindfulness", "headline_pattern": "question", "composition": ["centered-device", "hand-drawn-illustration"] },
+        { "index": 5, "communication_job": "encouragement", "headline_pattern": "belief", "composition": ["centered-device", "dark-mode"] },
+        { "index": 6, "communication_job": "widget", "headline_pattern": "feature", "composition": ["centered-device", "widget-grid"] }
+      ]
+    },
+    {
+      "app_slug": "pool-the-screenshot-app",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["editorial", "playful", "product-led"],
+        "product_terms": ["screenshots", "saving", "organizing", "source links", "collections", "visual search", "memory"],
+        "background": ["white", "textured", "photographic"],
+        "device_treatment": ["framed-device", "hand-held-device", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "action", "composition": ["top-copy", "hand-held-device", "object-collage"] },
+        { "index": 1, "communication_job": "brand", "headline_pattern": "brand", "composition": ["hand-held-device", "object-collage"] },
+        { "index": 2, "communication_job": "screenshot-library", "headline_pattern": "category-claim", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "source-recovery", "headline_pattern": "outcome", "composition": ["top-copy", "full-device", "platform-callout"] },
+        { "index": 4, "communication_job": "organization", "headline_pattern": "action", "composition": ["top-copy", "full-device", "floating-card"] },
+        { "index": 5, "communication_job": "retrieval", "headline_pattern": "outcome", "composition": ["top-copy", "full-device", "search-callouts"] }
+      ]
+    },
+    {
+      "app_slug": "untitled",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["minimal", "editorial", "product-led"],
+        "product_terms": ["music", "demos", "offline", "stems", "collaboration", "pitch", "speed", "recording", "web app", "file import"],
+        "background": ["white", "soft-gradient"],
+        "device_treatment": ["frameless", "centered-device", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "full-device"] },
+        { "index": 1, "communication_job": "offline-listening", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "stem-separation", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "collaboration", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "audio-editing", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 5, "communication_job": "idea-capture", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "cross-platform", "headline_pattern": "feature", "composition": ["top-copy", "layered-devices"] },
+        { "index": 7, "communication_job": "file-import", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] }
+      ]
+    },
+    {
+      "app_slug": "denim-playlist-cover-maker",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["playful", "editorial", "colorful"],
+        "product_terms": ["playlist", "cover art", "music", "design", "templates", "fonts", "customization", "icloud"],
+        "background": ["white", "bright", "object-collage"],
+        "device_treatment": ["framed-device", "floating-cards", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "before-after", "headline_pattern": "introduction", "composition": ["top-copy", "comparison", "cover-collage"] },
+        { "index": 1, "communication_job": "speed", "headline_pattern": "time-to-value", "composition": ["top-copy", "cover-collage", "product-object"] },
+        { "index": 2, "communication_job": "customization", "headline_pattern": "action", "composition": ["ui-detail", "floating-card"] },
+        { "index": 3, "communication_job": "remixing", "headline_pattern": "outcome", "composition": ["top-copy", "full-device", "cover-grid"] },
+        { "index": 4, "communication_job": "personalization", "headline_pattern": "feature-range", "composition": ["top-copy", "full-device"] }
+      ]
+    },
+    {
+      "app_slug": "detail-ai-video-editor",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "creator-led", "high-contrast"],
+        "product_terms": ["video", "camera", "editing", "reactions", "ai edit", "teleprompter", "captions", "podcast", "live stream", "text editing"],
+        "background": ["black", "photographic"],
+        "device_treatment": ["frameless", "content-led", "large-crop"],
+        "copy_density": "medium"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-workflow", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui", "award-stack"] },
+        { "index": 1, "communication_job": "reaction-video", "headline_pattern": "speed", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 2, "communication_job": "ai-editing", "headline_pattern": "time-to-value", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "teleprompter", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "captions", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 5, "communication_job": "podcast-editing", "headline_pattern": "speed", "composition": ["top-copy", "layered-ui"] },
+        { "index": 6, "communication_job": "live-streaming", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 7, "communication_job": "text-based-editing", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 8, "communication_job": "shortcuts", "headline_pattern": "feature-list", "composition": ["top-copy", "layered-ui"] }
+      ]
+    },
+    {
+      "app_slug": "krea-ai-images-and-videos",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["technical", "minimal", "high-contrast"],
+        "product_terms": ["ai", "image generation", "video generation", "real-time", "models", "enhancement", "creative tools"],
+        "background": ["black", "gradient"],
+        "device_treatment": ["frameless", "large-crop", "content-led"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "real-time-generation", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 1, "communication_job": "model-access", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 2, "communication_job": "generation", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "image-enhancement", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop", "before-after"] }
+      ]
+    },
+    {
+      "app_slug": "lumy",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["premium", "atmospheric", "technical"],
+        "product_terms": ["sun", "golden hour", "weather", "photography", "mindfulness", "hiking", "notifications", "calendar", "liquid glass", "customization"],
+        "background": ["dark", "gradient", "photographic"],
+        "device_treatment": ["frameless", "content-led", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "introduction", "composition": ["brand-opening", "atmospheric-ui", "award-stack"] },
+        { "index": 1, "communication_job": "daily-overview", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 2, "communication_job": "weather", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui", "award-badge"] },
+        { "index": 3, "communication_job": "photography-planning", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "mindfulness", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 5, "communication_job": "hiking", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 6, "communication_job": "notifications", "headline_pattern": "benefit", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 7, "communication_job": "date-planning", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 8, "communication_job": "visual-system", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui", "hand-held-device"] },
+        { "index": 9, "communication_job": "personalization", "headline_pattern": "action", "composition": ["top-copy", "ui-collage"] }
+      ]
+    },
+    {
+      "app_slug": "dudel-draw",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["playful", "illustrated", "high-contrast"],
+        "product_terms": ["drawing", "creativity", "shapes", "daily challenge", "streak", "widget", "friends", "art"],
+        "background": ["black", "bright", "solid-color"],
+        "device_treatment": ["frameless", "centered-device", "large-crop"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "belief", "composition": ["top-copy", "large-device-crop", "character-art"] },
+        { "index": 1, "communication_job": "content-range", "headline_pattern": "number", "composition": ["top-copy", "asset-grid"] },
+        { "index": 2, "communication_job": "daily-challenge", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "streak", "headline_pattern": "habit", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "device-in-context"] },
+        { "index": 5, "communication_job": "sharing", "headline_pattern": "action", "composition": ["top-copy", "character-art", "award-badge"] }
+      ]
+    },
+    {
+      "app_slug": "yes-ai-video-camera",
+      "status": "approved",
+      "defaults": {
+        "visual_style": ["maximalist", "social", "creator-led"],
+        "product_terms": ["ai creativity", "camera", "chat", "remix", "community", "image generation", "video generation", "sharing"],
+        "background": ["gradient", "photographic", "bright"],
+        "device_treatment": ["frameless", "large-crop", "layered-ui"],
+        "copy_density": "low"
+      },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "large-device-crop", "floating-reaction"] },
+        { "index": 1, "communication_job": "remixing", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop", "cursor-callout"] },
+        { "index": 2, "communication_job": "ai-camera", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui", "object-collage"] },
+        { "index": 3, "communication_job": "community", "headline_pattern": "scale", "composition": ["top-copy", "large-device-crop", "creator-collage"] }
+      ]
+    },
+    {
+      "app_slug": "capwords-ai-language-tutor", "status": "approved",
+      "defaults": { "visual_style": ["playful", "editorial", "illustrated"], "product_terms": ["language learning", "camera", "conversation", "vocabulary", "flashcards", "ai tutor", "multilingual"], "background": ["bright", "pastel", "collage"], "device_treatment": ["framed-device", "large-crop", "content-led"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["typographic-opening", "object-collage", "award-stack"] },
+        { "index": 1, "communication_job": "camera-learning", "headline_pattern": "action", "composition": ["top-copy", "tilted-device"] },
+        { "index": 2, "communication_job": "daily-speaking", "headline_pattern": "action", "composition": ["top-copy", "object-collage"] },
+        { "index": 3, "communication_job": "conversation-practice", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "language-range", "headline_pattern": "number", "composition": ["top-copy", "full-device", "flag-grid"] },
+        { "index": 5, "communication_job": "context-learning", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "differentiator", "headline_pattern": "problem-solution", "composition": ["large-copy", "card-collage"] },
+        { "index": 7, "communication_job": "flashcards", "headline_pattern": "benefit", "composition": ["top-copy", "layered-cards", "large-device-crop"] },
+        { "index": 8, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["review-stack"] }
+      ]
+    },
+    {
+      "app_slug": "art-of-fauna-cozy-puzzles", "status": "approved",
+      "defaults": { "visual_style": ["editorial", "vintage", "calm"], "product_terms": ["puzzle", "animals", "art", "facts", "biomes", "accessibility", "cozy game"], "background": ["cream", "textured"], "device_treatment": ["frameless", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["typographic-opening", "art-collage", "award-stack"] },
+        { "index": 1, "communication_job": "gameplay", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 2, "communication_job": "education", "headline_pattern": "playful", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "content-scale", "headline_pattern": "number", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "content-range", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 5, "communication_job": "accessibility", "headline_pattern": "values", "composition": ["top-copy", "large-device-crop"] }
+      ]
+    },
+    {
+      "app_slug": "nyt-games-wordle-crossword", "status": "approved",
+      "defaults": { "visual_style": ["editorial", "minimal", "product-led"], "product_terms": ["word games", "crossword", "wordle", "puzzles", "archive", "progress", "friends", "multi-device"], "background": ["white", "neutral"], "device_treatment": ["mixed-device", "framed-device", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "brand-opening", "headline_pattern": "brand", "composition": ["logo-opening", "tilted-device"] },
+        { "index": 1, "communication_job": "game-range", "headline_pattern": "category-claim", "composition": ["top-copy", "layered-devices"] },
+        { "index": 2, "communication_job": "daily-puzzles", "headline_pattern": "habit", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "archive", "headline_pattern": "number", "composition": ["top-copy", "layered-devices"] },
+        { "index": 4, "communication_job": "progress", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 5, "communication_job": "guidance", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop", "character-art"] },
+        { "index": 6, "communication_job": "competition", "headline_pattern": "action", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 7, "communication_job": "cross-device", "headline_pattern": "feature", "composition": ["top-copy", "multi-device"] }
+      ]
+    },
+    {
+      "app_slug": "sudoku-a-day-number-puzzle", "status": "approved",
+      "defaults": { "visual_style": ["minimal", "friendly", "product-led"], "product_terms": ["sudoku", "daily puzzle", "themes", "friends", "customization", "notes", "widgets", "streak", "reminders"], "background": ["white", "neutral", "photographic"], "device_treatment": ["framed-device", "mixed-device", "large-crop"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "value", "composition": ["top-copy", "device-in-context"] },
+        { "index": 1, "communication_job": "social-proof", "headline_pattern": "authority", "composition": ["top-copy", "full-device", "testimonial"] },
+        { "index": 2, "communication_job": "customization", "headline_pattern": "action", "composition": ["top-copy", "layered-devices"] },
+        { "index": 3, "communication_job": "daily-puzzle", "headline_pattern": "habit", "composition": ["calendar-copy", "full-device"] },
+        { "index": 4, "communication_job": "competition", "headline_pattern": "action", "composition": ["avatar-collage", "full-device"] },
+        { "index": 5, "communication_job": "game-settings", "headline_pattern": "personalization", "composition": ["ui-callouts", "full-device"] },
+        { "index": 6, "communication_job": "notes", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "widget-collage"] },
+        { "index": 8, "communication_job": "streak", "headline_pattern": "habit", "composition": ["top-copy", "device-in-context"] },
+        { "index": 9, "communication_job": "call-to-action", "headline_pattern": "action", "composition": ["top-copy", "full-device"] }
+      ]
+    },
+    {
+      "app_slug": "capy-ai-meeting-translator", "status": "approved",
+      "defaults": { "visual_style": ["friendly", "minimal", "illustrated"], "product_terms": ["transcription", "translation", "meetings", "summaries", "search", "languages", "notes"], "background": ["white", "solid-color"], "device_treatment": ["framed-device", "large-crop"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "feature-list", "composition": ["icon-list", "character-art", "award-badge"] },
+        { "index": 1, "communication_job": "live-translation", "headline_pattern": "outcome", "composition": ["top-copy", "full-device", "character-art"] },
+        { "index": 2, "communication_job": "summary", "headline_pattern": "benefit", "composition": ["top-copy", "layered-devices"] },
+        { "index": 3, "communication_job": "search", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "language-range", "headline_pattern": "feature", "composition": ["language-cloud", "large-device-crop"] }
+      ]
+    },
+    {
+      "app_slug": "focusflight-deepfocus-timer", "status": "approved",
+      "defaults": { "visual_style": ["cinematic", "dark", "gamified"], "product_terms": ["focus", "timer", "flights", "app blocking", "progress", "rewards", "widgets", "live activities"], "background": ["dark", "photographic", "atmospheric"], "device_treatment": ["frameless", "layered-ui", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "metaphor", "composition": ["large-copy", "map-ui", "award-stack"] },
+        { "index": 1, "communication_job": "use-cases", "headline_pattern": "feature-range", "composition": ["large-device-crop", "floating-tags"] },
+        { "index": 2, "communication_job": "focus-session", "headline_pattern": "action", "composition": ["top-copy", "object-collage"] },
+        { "index": 3, "communication_job": "map-customization", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "immersive-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "device-window"] },
+        { "index": 5, "communication_job": "app-blocking", "headline_pattern": "action", "composition": ["icon-collage", "large-symbol"] },
+        { "index": 6, "communication_job": "progress", "headline_pattern": "outcome", "composition": ["top-copy", "globe-visualization"] },
+        { "index": 7, "communication_job": "rewards", "headline_pattern": "feature", "composition": ["top-copy", "card-collage"] },
+        { "index": 8, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "widget-collage"] }
+      ]
+    },
+    {
+      "app_slug": "forest-focus-for-productivity", "status": "approved",
+      "defaults": { "visual_style": ["friendly", "illustrated", "gamified"], "product_terms": ["focus", "app blocking", "trees", "achievement", "mindfulness", "statistics", "friends", "real trees"], "background": ["pastel", "gradient", "illustrated"], "device_treatment": ["frameless", "content-led", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop", "social-proof"] },
+        { "index": 1, "communication_job": "gamification", "headline_pattern": "belief", "composition": ["top-copy", "immersive-scene"] },
+        { "index": 2, "communication_job": "app-blocking", "headline_pattern": "action", "composition": ["top-copy", "large-ui-detail"] },
+        { "index": 3, "communication_job": "achievement", "headline_pattern": "outcome", "composition": ["top-copy", "immersive-scene"] },
+        { "index": 4, "communication_job": "mindfulness", "headline_pattern": "action", "composition": ["top-copy", "character-art"] },
+        { "index": 5, "communication_job": "progress", "headline_pattern": "insight", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 6, "communication_job": "social-motivation", "headline_pattern": "outcome", "composition": ["top-copy", "avatar-row", "character-art"] },
+        { "index": 7, "communication_job": "impact", "headline_pattern": "outcome", "composition": ["top-copy", "photographic"] }
+      ]
+    },
+    {
+      "app_slug": "hibi-calendar-daily-journal", "status": "approved",
+      "defaults": { "visual_style": ["editorial", "minimal", "tactile"], "product_terms": ["calendar", "journal", "events", "drawing", "stickers", "paper", "widgets", "memory"], "background": ["white", "neutral"], "device_treatment": ["framed-device", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "ownership", "composition": ["top-copy", "full-device"] },
+        { "index": 1, "communication_job": "customization", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "event-planning", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "memory", "headline_pattern": "outcome", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "visual-customization", "headline_pattern": "action", "composition": ["top-copy", "product-object"] },
+        { "index": 5, "communication_job": "widget", "headline_pattern": "feature", "composition": ["top-copy", "device-in-context"] }
+      ]
+    },
+    {
+      "app_slug": "joi-daily-planner-organizer", "status": "approved",
+      "defaults": { "visual_style": ["minimal", "technical", "product-led"], "product_terms": ["calendar", "tasks", "habits", "timeline", "scheduling", "daily summary", "progress", "widgets"], "background": ["white", "neutral"], "device_treatment": ["framed-device", "large-crop", "device-in-context"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "feature-list", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 1, "communication_job": "platform-update", "headline_pattern": "feature", "composition": ["large-copy", "device-in-context"] },
+        { "index": 2, "communication_job": "unified-timeline", "headline_pattern": "summary", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "quick-scheduling", "headline_pattern": "time-to-value", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "daily-summary", "headline_pattern": "insight", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 5, "communication_job": "widget", "headline_pattern": "benefit", "composition": ["large-copy", "device-in-context"] }
+      ]
+    },
+    {
+      "app_slug": "mymind-extend-your-mind", "status": "approved",
+      "defaults": { "visual_style": ["premium", "editorial", "atmospheric"], "product_terms": ["saving", "notes", "ideas", "web app", "browser extension", "ai organization", "privacy", "visual library"], "background": ["gradient", "pastel", "dark"], "device_treatment": ["frameless", "floating-ui", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "saving", "headline_pattern": "ease", "composition": ["top-copy", "full-device"] },
+        { "index": 1, "communication_job": "cross-platform", "headline_pattern": "feature", "composition": ["top-copy", "ui-collage"] },
+        { "index": 2, "communication_job": "note-capture", "headline_pattern": "ease", "composition": ["top-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "feature-range", "headline_pattern": "summary", "composition": ["large-copy", "floating-ui"] },
+        { "index": 4, "communication_job": "ai-organization", "headline_pattern": "belief", "composition": ["large-copy", "product-object"] },
+        { "index": 5, "communication_job": "privacy", "headline_pattern": "values", "composition": ["top-copy", "large-device-crop"] }
+      ]
+    },
+    {
+      "app_slug": "opal-screen-time-control", "status": "approved",
+      "defaults": { "visual_style": ["premium", "cinematic", "technical"], "product_terms": ["screen time", "app blocking", "focus", "sleep", "progress", "timer", "rules", "routines", "friction", "mac"], "background": ["photographic", "gradient", "atmospheric"], "device_treatment": ["hand-held-device", "framed-device", "layered-ui"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "mechanism", "composition": ["large-copy", "hand-held-device", "floating-cards"] },
+        { "index": 1, "communication_job": "wellbeing", "headline_pattern": "outcome", "composition": ["top-copy", "hand-held-device", "award-badge"] },
+        { "index": 2, "communication_job": "app-blocking", "headline_pattern": "mechanism", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "progress", "headline_pattern": "insight", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "focus-timer", "headline_pattern": "ease", "composition": ["top-copy", "device-with-object"] },
+        { "index": 5, "communication_job": "automation", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "routines", "headline_pattern": "feature", "composition": ["top-copy", "ui-grid"] },
+        { "index": 7, "communication_job": "unblocking-friction", "headline_pattern": "mechanism", "composition": ["top-copy", "full-device", "object-collage"] },
+        { "index": 8, "communication_job": "cross-platform", "headline_pattern": "feature", "composition": ["top-copy", "device-in-context"] }
+      ]
+    },
+    {
+      "app_slug": "pebble-ai-to-do-focus", "status": "approved",
+      "defaults": { "visual_style": ["editorial", "minimal", "playful"], "product_terms": ["tasks", "focus", "ai", "capture", "simplify", "app blocking", "productivity", "adhd"], "background": ["white", "neutral"], "device_treatment": ["frameless", "large-crop", "layered-ui"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "transformation", "composition": ["large-copy", "layered-ui", "product-object"] },
+        { "index": 1, "communication_job": "task-capture", "headline_pattern": "speed", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 2, "communication_job": "simplification", "headline_pattern": "outcome", "composition": ["large-copy", "large-device-crop", "floating-card"] },
+        { "index": 3, "communication_job": "focus", "headline_pattern": "action", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "completion", "headline_pattern": "outcome", "composition": ["large-copy", "large-device-crop", "floating-cards"] },
+        { "index": 5, "communication_job": "social-proof", "headline_pattern": "numeric-benefit", "composition": ["large-copy", "testimonial-stack"] }
+      ]
+    },
+    {
+      "app_slug": "stashy-save-anything", "status": "approved",
+      "defaults": { "visual_style": ["bold", "friendly", "product-led"], "product_terms": ["saving", "organization", "on-device ai", "categories", "search", "library", "cross-device", "privacy"], "background": ["blue", "solid-color"], "device_treatment": ["framed-device", "mixed-device", "hand-held-device"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "scale", "composition": ["large-copy", "tilted-device", "trust-badges"] },
+        { "index": 1, "communication_job": "organization", "headline_pattern": "ease", "composition": ["large-copy", "full-device"] },
+        { "index": 2, "communication_job": "cross-device", "headline_pattern": "feature", "composition": ["large-copy", "multi-device"] },
+        { "index": 3, "communication_job": "smart-categories", "headline_pattern": "outcome", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 4, "communication_job": "ai-search", "headline_pattern": "outcome", "composition": ["hand-held-device", "large-copy"] }
+      ]
+    },
+    {
+      "app_slug": "structured-daily-planner-todo", "status": "approved",
+      "defaults": { "visual_style": ["friendly", "minimal", "pastel"], "product_terms": ["planner", "timeline", "routines", "habits", "ai planning", "widgets", "notifications", "cross-device", "calendar integration"], "background": ["pastel", "solid-color"], "device_treatment": ["mixed-device", "large-crop", "layered-ui"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["large-copy", "large-device-crop", "award-stack"] },
+        { "index": 1, "communication_job": "timeline", "headline_pattern": "feature", "composition": ["tilted-device", "large-crop"] },
+        { "index": 2, "communication_job": "routines", "headline_pattern": "action", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "ai-planning", "headline_pattern": "action", "composition": ["large-copy", "full-device"] },
+        { "index": 4, "communication_job": "widget", "headline_pattern": "benefit", "composition": ["large-copy", "widget-detail"] },
+        { "index": 5, "communication_job": "cross-device", "headline_pattern": "feature", "composition": ["multi-device"] },
+        { "index": 6, "communication_job": "integration", "headline_pattern": "action", "composition": ["large-copy", "icon-chain"] },
+        { "index": 7, "communication_job": "social-proof", "headline_pattern": "scale", "composition": ["large-copy", "testimonial-stack"] }
+      ]
+    },
+    {
+      "app_slug": "things-take-time-logbook", "status": "approved",
+      "defaults": { "visual_style": ["minimal", "technical", "editorial"], "product_terms": ["logbook", "habits", "metrics", "consistency", "trackers", "analytics", "history"], "background": ["white", "neutral"], "device_treatment": ["frameless", "large-crop", "tilted-device"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "belief", "composition": ["large-copy", "tilted-device"] },
+        { "index": 1, "communication_job": "tracking-range", "headline_pattern": "feature-range", "composition": ["large-device-crop", "bottom-copy"] },
+        { "index": 2, "communication_job": "comparison", "headline_pattern": "summary", "composition": ["large-copy", "large-device-crop"] },
+        { "index": 3, "communication_job": "analytics", "headline_pattern": "insight", "composition": ["large-device-crop", "bottom-copy"] }
+      ]
+    },
+    {
+      "app_slug": "tiimo-to-do-list-planner", "status": "approved",
+      "defaults": { "visual_style": ["premium", "friendly", "pastel"], "product_terms": ["planner", "tasks", "ai planning", "reminders", "focus", "rewards", "cross-device", "adhd"], "background": ["pastel", "gradient"], "device_treatment": ["mixed-device", "large-crop", "layered-ui"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["large-copy", "large-device-crop", "award-stack"] },
+        { "index": 1, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["layered-ui", "quote"] },
+        { "index": 2, "communication_job": "daily-planning", "headline_pattern": "action", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "reminders", "headline_pattern": "feature", "composition": ["device-in-context", "icon-callouts"] },
+        { "index": 4, "communication_job": "ai-planning", "headline_pattern": "action", "composition": ["top-copy", "layered-ui"] },
+        { "index": 5, "communication_job": "focus", "headline_pattern": "outcome", "composition": ["top-copy", "large-device-crop", "asset-row"] },
+        { "index": 6, "communication_job": "cross-device", "headline_pattern": "feature", "composition": ["top-copy", "multi-device"] }
+      ]
+    },
+    {
+      "app_slug": "universe-website-builder", "status": "approved",
+      "defaults": { "visual_style": ["bold", "technical", "high-contrast"], "product_terms": ["website builder", "templates", "drag and drop", "domain", "customization", "commerce", "email", "analytics", "publishing"], "background": ["blue", "grid", "solid-color"], "device_treatment": ["framed-device", "large-crop", "content-led"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "templates", "headline_pattern": "quality", "composition": ["top-copy", "full-device"] },
+        { "index": 1, "communication_job": "editor", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "domain", "headline_pattern": "speed", "composition": ["top-copy", "full-device"] },
+        { "index": 3, "communication_job": "feature-range", "headline_pattern": "summary", "composition": ["top-copy", "full-device"] },
+        { "index": 4, "communication_job": "customization", "headline_pattern": "scale", "composition": ["top-copy", "full-device"] },
+        { "index": 5, "communication_job": "commerce", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 6, "communication_job": "email", "headline_pattern": "feature", "composition": ["top-copy", "full-device"] },
+        { "index": 7, "communication_job": "analytics", "headline_pattern": "authority", "composition": ["top-copy", "full-device"] },
+        { "index": 8, "communication_job": "creative-range", "headline_pattern": "belief", "composition": ["top-copy", "site-collage"] },
+        { "index": 9, "communication_job": "social-proof", "headline_pattern": "scale", "composition": ["top-copy", "site-grid"] }
+      ]
+    },
+    {
+      "app_slug": "hallow-prayer-meditation", "status": "approved",
+      "defaults": { "visual_style": ["premium", "illustrated", "spiritual"], "product_terms": ["prayer", "meditation", "sleep", "christian music", "bible", "community", "challenges", "daily readings"], "background": ["purple", "gradient", "illustrated"], "device_treatment": ["frameless", "large-crop", "content-led"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "category-claim", "composition": ["top-copy", "tilted-device", "award-badge"] },
+        { "index": 1, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["quote-stack"] },
+        { "index": 2, "communication_job": "daily-prayer", "headline_pattern": "feature-range", "composition": ["top-copy", "large-device-crop", "testimonial"] },
+        { "index": 3, "communication_job": "sleep", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop", "testimonial"] },
+        { "index": 4, "communication_job": "music", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop", "testimonial"] },
+        { "index": 5, "communication_job": "quick-meditation", "headline_pattern": "time-to-value", "composition": ["top-copy", "large-device-crop", "testimonial"] },
+        { "index": 6, "communication_job": "community", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop", "testimonial"] },
+        { "index": 7, "communication_job": "bible", "headline_pattern": "feature", "composition": ["top-copy", "large-device-crop", "testimonial"] },
+        { "index": 8, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["quote-stack"] }
+      ]
+    },
+    {
+      "app_slug": "locket-widget", "status": "approved",
+      "defaults": { "visual_style": ["social", "photographic", "high-contrast"], "product_terms": ["friends", "photos", "home screen", "widget", "photo dump", "chat", "camera", "history"], "background": ["dark", "gradient", "photographic"], "device_treatment": ["frameless", "device-in-context", "large-crop"], "copy_density": "low" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "action", "composition": ["large-copy", "widget-illustration"] },
+        { "index": 1, "communication_job": "photo-sharing", "headline_pattern": "action", "composition": ["top-copy", "device-in-context"] },
+        { "index": 2, "communication_job": "photo-dump", "headline_pattern": "feature", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 3, "communication_job": "chat", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 4, "communication_job": "widget", "headline_pattern": "benefit", "composition": ["top-copy", "device-in-context"] },
+        { "index": 5, "communication_job": "camera", "headline_pattern": "action", "composition": ["top-copy", "full-screen-ui"] },
+        { "index": 6, "communication_job": "history", "headline_pattern": "outcome", "composition": ["top-copy", "full-screen-ui"] }
+      ]
+    },
+    {
+      "app_slug": "box-box-club-formula-widgets", "status": "approved",
+      "defaults": { "visual_style": ["bold", "technical", "sports"], "product_terms": ["formula racing", "widgets", "live activity", "race stats", "apple watch", "drivers", "teams", "track guide", "news"], "background": ["black", "gradient", "photographic"], "device_treatment": ["mixed-device", "hand-held-device", "large-crop"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "social-proof", "headline_pattern": "scale", "composition": ["hand-held-device", "large-metric", "award-stack"] },
+        { "index": 1, "communication_job": "social-proof", "headline_pattern": "testimonial", "composition": ["quote", "photographic"] },
+        { "index": 2, "communication_job": "widget", "headline_pattern": "feature", "composition": ["hand-held-device", "widget-collage", "large-metric"] },
+        { "index": 3, "communication_job": "race-reviews", "headline_pattern": "action", "composition": ["full-device", "product-object"] },
+        { "index": 4, "communication_job": "live-activity", "headline_pattern": "feature", "composition": ["large-ui-detail", "large-copy"] },
+        { "index": 5, "communication_job": "race-stats", "headline_pattern": "feature", "composition": ["large-device-crop", "object-collage"] },
+        { "index": 6, "communication_job": "apple-watch", "headline_pattern": "feature", "composition": ["wearable-focus", "large-copy"] },
+        { "index": 7, "communication_job": "driver-tracking", "headline_pattern": "action", "composition": ["full-device", "photographic-object"] },
+        { "index": 8, "communication_job": "track-guide", "headline_pattern": "outcome", "composition": ["full-device", "large-copy"] },
+        { "index": 9, "communication_job": "news", "headline_pattern": "personalization", "composition": ["full-device", "large-copy"] }
+      ]
+    },
+    {
+      "app_slug": "clutter-screenshot-organizer", "status": "approved",
+      "defaults": { "visual_style": ["minimal", "friendly", "editorial"], "product_terms": ["screenshots", "cleanup", "organization", "search", "themes", "ocr", "folders", "privacy", "on-device"], "background": ["gray", "neutral", "solid-color"], "device_treatment": ["framed-device", "mixed-device", "tilted-device"], "copy_density": "medium" },
+      "screens": [
+        { "index": 0, "communication_job": "primary-benefit", "headline_pattern": "ease", "composition": ["top-copy", "full-device", "character-art"] },
+        { "index": 1, "communication_job": "triage", "headline_pattern": "speed", "composition": ["top-copy", "full-device"] },
+        { "index": 2, "communication_job": "search", "headline_pattern": "outcome", "composition": ["top-copy", "layered-devices"] },
+        { "index": 3, "communication_job": "customization", "headline_pattern": "belief", "composition": ["top-copy", "theme-grid"] },
+        { "index": 4, "communication_job": "ocr", "headline_pattern": "action", "composition": ["top-copy", "tilted-device"] },
+        { "index": 5, "communication_job": "share-extension", "headline_pattern": "action", "composition": ["layered-devices", "bottom-copy"] },
+        { "index": 6, "communication_job": "folders", "headline_pattern": "action", "composition": ["top-copy", "multi-device"] },
+        { "index": 7, "communication_job": "privacy", "headline_pattern": "trust", "composition": ["top-copy", "full-device"] }
       ]
     }
   ]

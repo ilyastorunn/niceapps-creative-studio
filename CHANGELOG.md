@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Completed full-catalog retrieval coverage with 418 visually reviewed screenshots across all 55 apps in the 2026-09-17 catalog snapshot, plus structural, coverage, and refreshed live-retrieval regression cases.
+- Added a source-aware project wiki and strengthened the repository agent contract so product boundaries, architecture, decisions, verification, and cross-repository synchronization remain durable.
 - Added installation instructions for Codex, Claude Code, Claude Desktop, Cursor, Windsurf, VS Code, Gemini CLI, Windows, and generic stdio MCP clients.
 - Ignored generated output, local environment files, evaluation results, feedback snapshots, and local Creative Studio state.
 - Removed the stale committed retrieval-evaluation result; reproducible evaluation cases and the runner remain versioned.

@@ -46,7 +46,7 @@
       {
         "name": "visual",
         "input": { "query": "playful editorial bright", "visual_style": ["playful", "editorial"], "limit": 6 },
-        "expected_any_slugs": ["not-boring-weather", "gentler-streak-workout-tracker"]
+        "expected_any_slugs": ["go-club-steps-water", "denim-playlist-cover-maker", "capwords-ai-language-tutor", "not-boring-weather", "gentler-streak-workout-tracker"]
       },
       {
         "name": "communication",
